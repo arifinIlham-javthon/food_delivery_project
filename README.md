@@ -12,7 +12,7 @@ Projek ini adalah simulasi *pipeline* Data Science untuk membersihkan dan mengan
 - **Visualisasi** (Matplotlib, Seaborn)
 - **Environment** (Jupyter Notebook / VS Code)
 
-** Insight Utama
+## Insight Utama
 1. **Waktu Tunggu vs Jarak:** Terdapat korelasi positif kuat (0.75) antara jarak kirim dengan tunggu. Semakin jauh, semakin lama.
 2. **Promo tidak selalu memperlambat:** Pesanan dengan promo (`True`) tidak selalu memiliki waktu tunggu yang lebih lama dibanding tanpa promo, menandakan sistem *load balanching* berjalan baik.
 3. **Outlier Harga:** Ditemukan harga ekstrem hingga Rp 8 juta yang harus difilter menggunakan metode IQR agar tidak merusak rata-rata.
